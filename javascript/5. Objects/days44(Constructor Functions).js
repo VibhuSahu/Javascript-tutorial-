@@ -1,0 +1,13 @@
+// Camel Notation : oneTwoThreeFour         (Convention for 'Factory Functions')
+// Pascal Notation : OneTwoThreeFour        (Convention for 'Constructor Functions')
+
+// Constructor Function
+function Circle(radius) {
+    this.radius = radius;
+    this.draw = function() {
+        console.log('draw');
+    }
+}
+
+const circle = new Circle(1);
+console.log(circle)

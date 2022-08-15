@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Array constructor Property</title>
+</head>
+<body style="text-align: center;">
+    <h1 style="color: green;">
+        GeeksforGeeks
+    </h1>
+
+    <b>JavaScript | Array constructor Property</b>
+    <br>
+    <button onclick="myGeeks()">
+        Submit
+    </button>
+    <p id="sudo"></p>
+    <p id="demo"></p>
+
+    <script>
+        function myGeeks() {
+            var name = ['Sahil','Manas','Sagar','Harshit'];
+            document.getElementById('sudo').innerHTML = name.constructor;
+            document.getElementById('demo').innerHTML = name;
+        }
+    </script>
+    
+</body>
+</html>
