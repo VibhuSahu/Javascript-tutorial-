@@ -10,9 +10,9 @@ const circle = {
         y : 1
     },
     isVisible : true,
-    draw : function() {
+    draw : function() {  // Method if the fuction is in side the object
         console.log('draw');
     }
 };
 
-circle.draw();
+circle.draw(); // In this we calling the method of circle object.
