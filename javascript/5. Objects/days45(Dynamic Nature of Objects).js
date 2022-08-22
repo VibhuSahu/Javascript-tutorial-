@@ -1,5 +1,5 @@
 // JavaScript is a dynamic laguage 
-// JavaScript alous to change,add,remove the property in object but cannot be 
+// JavaScript alous to change,add,remove the property in object but cannot assine new value to a variable
 
 const circle = {
     radius : 1
